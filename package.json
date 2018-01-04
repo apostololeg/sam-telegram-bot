@@ -1,0 +1,19 @@
+{
+  "name": "sam-telegram-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apostololeg/sam-telegram-bot.git"
+  },
+  "author": "Oleg Apostol",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/apostololeg/sam-telegram-bot/issues"
+  },
+  "homepage": "https://github.com/apostololeg/sam-telegram-bot#readme"
+}
