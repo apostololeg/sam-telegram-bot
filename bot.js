@@ -1,6 +1,6 @@
 import TelegramBot from 'node-telegram-bot-api'
 
-const token = '509184292:AAGB4DwMrZt4sBK-qFZTh0Z0pZpymBalm1E'
+const token = process.argv[2]
 const bot = new TelegramBot(token, { polling: true })
 
 bot.onText(/\/echo (.+)/, (msg, match) => {
@@ -19,5 +19,5 @@ bot.on('message', (msg) => {
     const chatId = msg.chat.id;
 
     // send a message to the chat acknowledging receipt of their message
-    bot.sendMessage(chatId, 'Received your message');
+    bot.sendMessage(chatId, 'Sam received your message');
 });

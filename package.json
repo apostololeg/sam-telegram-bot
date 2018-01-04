@@ -2,9 +2,9 @@
   "name": "sam-telegram-bot",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "bot.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "babel-node bot.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/apostololeg/sam-telegram-bot/issues"
   },
-  "homepage": "https://github.com/apostololeg/sam-telegram-bot#readme"
+  "homepage": "https://github.com/apostololeg/sam-telegram-bot#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "node-telegram-bot-api": "^0.30.0"
+  }
 }
